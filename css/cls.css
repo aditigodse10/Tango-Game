@@ -1,0 +1,20 @@
+body {
+	--fsAddBuffer: 22px;
+}
+[id='tangogame-org_incontent_below_buttons'] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: calc(var(--height) + var(--fsAddBuffer));
+	height: calc(var(--height) + var(--fsAddBuffer));
+	width: 100%;
+}
+[id='tangogame-org_incontent_below_buttons'] {
+		--height: 400px;
+}
+@media only screen and (min-width: 768px) {
+	[id='tangogame-org_incontent_below_buttons'] {
+		--height: 280px;
+	}
+}
